@@ -1,0 +1,21 @@
+{
+  "name": "bem-promotora",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "jest-playwright-preset": "^1.7.0",
+    "playwright": "^1.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node bp.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "preset": "jest-playwright-preset"
+  }
+}
